@@ -1,0 +1,14 @@
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = lm(autophagy$Value ~ autophagy$Condition))
+
+$`autophagy$Condition`
+                      diff       lwr       upr     p adj
+PI-1 3h-Control   32.37333  17.46937 47.277298 0.0000007
+PI-1 6h-Control   35.35333  20.44937 50.257298 0.0000001
+Rapamycin-Control 30.29333  15.38937 45.197298 0.0000033
+PI-1 6h-PI-1 3h    2.98000 -11.92396 17.883965 0.9538398
+Rapamycin-PI-1 3h -2.08000 -16.98396 12.823965 0.9834553
+Rapamycin-PI-1 6h -5.06000 -19.96396  9.843965 0.8126549
+
